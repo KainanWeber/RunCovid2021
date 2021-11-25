@@ -35,7 +35,7 @@ def escreverPlacar(contador):
     texto = fonte.render("Dias em quarentena:"+str(contador), True, black)
     gameDisplay.blit(texto, (9, 9))
 def dead():
-    escreverTela("Foi só uma gripe!")
+    escreverTela("Foi infectado!")
 def game():
     pessoaPosicaoX = largura*0.45
     pessoaPosicaoY = altura*0.72
