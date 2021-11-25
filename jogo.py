@@ -2,6 +2,11 @@ import pygame
 import time
 import random
 pygame.init()
+nome = input ("Coloque seu nome: ")
+email = input("Coloque seu email: ")
+data = {'Nome':nome, 'Email':email,}
+logs = open('logs.txt','a')
+logs.write(str(data) + '\n')
 largura = 1400
 altura = 950
 configTela = (largura, altura)
