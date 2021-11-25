@@ -6,4 +6,4 @@
 
 # Fuja do Vírus
 
-# Controle o personagem e desvie dos vírus para sobrevivver
+# Controle o personagem e desvie dos vírus para sobreviver
